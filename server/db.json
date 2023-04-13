@@ -1,0 +1,84 @@
+
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Name1",
+            "lastName": "LastName1",
+            "specialization": "Dentist-therapist"
+        },
+        {
+            "id": 2,
+            "name": "Name2",
+            "lastName": "LastName2",
+            "specialization": "Endodontist"
+        },
+        {
+            "id": 3,
+            "name": "Name3",
+            "lastName": "LastName3",
+            "specialization": "Periodontologist"
+        },
+        {
+            "id": 4,
+            "name": "Name4",
+            "lastName": "LastName4",
+            "specialization": "Orthodontist"
+        },
+        {
+            "id": 5,
+            "name": "Name5",
+            "lastName": "LastName5",
+            "specialization": "Prosthetist"
+        },
+        {
+            "id": 6,
+            "name": "Name6",
+            "lastName": "LastName6",
+            "specialization": "Implantologist"
+        },
+        {
+            "id": 7,
+            "name": "Name7",
+            "lastName": "LastName7",
+            "specialization": "Dentist-surgeon"
+        },
+        {
+            "id": 8,
+            "name": "Name8",
+            "lastName": "LastName8",
+            "specialization": "Periodontologist"
+        },
+        {
+            "id": 9,
+            "name": "Name9",
+            "lastName": "LastName9",
+            "specialization": "Orthodontist"
+        },
+        {
+            "id": 10,
+            "name": "Name10",
+            "lastName": "LastName10",
+            "specialization": "Dentist-therapist"
+        },
+        {
+            "id": 11,
+            "name": "Name11",
+            "lastName": "LastName11",
+            "specialization": "Periodontologist"
+        },
+        {
+            "id": 12,
+            "name": "Name12",
+            "lastName": "LastName12",
+            "specialization": "Prosthetist"
+        },
+        {
+            "id": 13,
+            "name": "Name13",
+            "lastName": "LastName13",
+            "specialization": "Dentist-therapist"
+        }
+    ]
+    
+}
