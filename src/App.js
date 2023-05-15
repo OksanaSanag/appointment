@@ -9,9 +9,11 @@ import {
 } from './components';
 
 //pages
-import Home from './pages/Home';
-import Doctors from './pages/Doctors';
-import NotFound from './pages/NotFound';
+import {
+  Speciality,
+  Doctors,
+  Home,
+} from "./pages";
 
 
 
@@ -22,7 +24,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/doctors' element={<Doctors />} />
-            <Route path='*' element={<NotFound />} />
+            <Route path='/speciality' element={<Speciality />} />
+            {/* <Route path='*' element={<NotFound />} /> */}
           </Routes>
         <Footer />
       </div>

@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 export default function ListOfDoctors(props) {
   return (
-    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'violet' }}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt='' src="/static/images/avatar/1.jpg" />
