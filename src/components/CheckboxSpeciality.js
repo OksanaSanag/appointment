@@ -11,12 +11,14 @@ export default function CheckboxSpeciality({ getFilterSpecs }) {
   const [filters, setFilters] = useState([]);
 
   const checkFilters = (v) => {
-    filters.includes(v) ? setFilters(filters.filter((i) => i !== v)) : setFilters([...filters, v]);
+    filters.includes(v)
+      ? setFilters((prevFilters) => prevFilters.filter((i) => i !== v))
+      : setFilters((prevFilters) => [...prevFilters, v]);
   };
   const handleChange = (event) => {
     const value = event.target.value;
-    getFilterSpecs([...filters, value]);
     checkFilters(value);
+    getFilterSpecs(value);
   };
 
   const specs = [
@@ -41,7 +43,7 @@ export default function CheckboxSpeciality({ getFilterSpecs }) {
               key={item.id}
               value={item.id}
               control={<Checkbox checked={isChecked(item.id)} onChange={handleChange} name={item.title} />}
-              label="Dentist-therapist"
+              label={item.title}
             />
           ))}
         </FormGroup>

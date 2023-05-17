@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
@@ -12,7 +12,6 @@ import ListOfDoctors from '../components/ListOfDoctors';
 
 function Doctors() {
   const [list, setList] = useState([]);
-  let specsArray = [];
 
   useEffect(() => {
     const urlAPI = APIurl;
@@ -43,9 +42,13 @@ function Doctors() {
     color: theme.palette.text.secondary,
   }));
 
-  const getFilterSpecs = (specs) => {
-    specsArray = specs;
-  };
+  const getFilterSpecs = useCallback(() => {
+    (spec) => {
+      list.includes(spec)
+        ? setList((prevSpecs) => prevSpecs.filter((i) => i !== spec))
+        : setList((prevSpecs) => [...prevSpecs, spec]);
+    };
+  }, []);
 
   return (
     <Box sx={{ flexGrow: 1 }}>

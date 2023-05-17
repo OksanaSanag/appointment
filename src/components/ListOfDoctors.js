@@ -12,17 +12,12 @@ export default function ListOfDoctors(props) {
     <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'violet' }}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt='' src="/static/images/avatar/1.jpg" />
+          <Avatar alt="" src="/static/images/avatar/1.jpg" />
         </ListItemAvatar>
         <ListItemText
           secondary={
             <React.Fragment>
-              <Typography
-                sx={{ display: 'inline' }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
+              <Typography sx={{ display: 'inline' }} component="span" variant="body2" color="text.primary">
                 {props.doctorName} &nbsp;
                 {props.doctorLastName}
               </Typography>

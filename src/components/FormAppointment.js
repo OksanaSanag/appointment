@@ -13,24 +13,9 @@ export default function FormPropsTextFields() {
       autoComplete="off"
     >
       <div>
-        <TextField
-          required
-          id="outlined-required"
-          label="Required"
-          defaultValue="Hello World"
-        />
-        <TextField
-          disabled
-          id="outlined-disabled"
-          label="Disabled"
-          defaultValue="Hello World"
-        />
-        <TextField
-          id="outlined-password-input"
-          label="Password"
-          type="password"
-          autoComplete="current-password"
-        />
+        <TextField required id="outlined-required" label="Required" defaultValue="Hello World" />
+        <TextField disabled id="outlined-disabled" label="Disabled" defaultValue="Hello World" />
+        <TextField id="outlined-password-input" label="Password" type="password" autoComplete="current-password" />
         <TextField
           id="outlined-read-only-input"
           label="Read Only"
@@ -56,20 +41,8 @@ export default function FormPropsTextFields() {
         />
       </div>
       <div>
-        <TextField
-          required
-          id="filled-required"
-          label="Required"
-          defaultValue="Hello World"
-          variant="filled"
-        />
-        <TextField
-          disabled
-          id="filled-disabled"
-          label="Disabled"
-          defaultValue="Hello World"
-          variant="filled"
-        />
+        <TextField required id="filled-required" label="Required" defaultValue="Hello World" variant="filled" />
+        <TextField disabled id="filled-disabled" label="Disabled" defaultValue="Hello World" variant="filled" />
         <TextField
           id="filled-password-input"
           label="Password"
@@ -95,12 +68,7 @@ export default function FormPropsTextFields() {
           }}
           variant="filled"
         />
-        <TextField
-          id="filled-search"
-          label="Search field"
-          type="search"
-          variant="filled"
-        />
+        <TextField id="filled-search" label="Search field" type="search" variant="filled" />
         <TextField
           id="filled-helperText"
           label="Helper text"
@@ -110,20 +78,8 @@ export default function FormPropsTextFields() {
         />
       </div>
       <div>
-        <TextField
-          required
-          id="standard-required"
-          label="Required"
-          defaultValue="Hello World"
-          variant="standard"
-        />
-        <TextField
-          disabled
-          id="standard-disabled"
-          label="Disabled"
-          defaultValue="Hello World"
-          variant="standard"
-        />
+        <TextField required id="standard-required" label="Required" defaultValue="Hello World" variant="standard" />
+        <TextField disabled id="standard-disabled" label="Disabled" defaultValue="Hello World" variant="standard" />
         <TextField
           id="standard-password-input"
           label="Password"
@@ -149,12 +105,7 @@ export default function FormPropsTextFields() {
           }}
           variant="standard"
         />
-        <TextField
-          id="standard-search"
-          label="Search field"
-          type="search"
-          variant="standard"
-        />
+        <TextField id="standard-search" label="Search field" type="search" variant="standard" />
         <TextField
           id="standard-helperText"
           label="Helper text"
