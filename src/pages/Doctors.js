@@ -7,7 +7,7 @@ import Paper from '@mui/material/Paper';
 
 import {APIurl} from '../api';
 
-import CheckboxSpeciality from '../components/CheckboxSpeciality'
+import {CheckboxList as CheckboxSpeciality} from '../components/CheckboxSpeciality'
 import ListOfDoctors from '../components/ListOfDoctors';
 
 
