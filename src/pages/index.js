@@ -1,9 +1,5 @@
-import Home from "./Home";
-import Doctors from "./Doctors";
-import Speciality from "./Speciality";
+import Home from './Home';
+import Doctors from './Doctors';
+import Speciality from './Speciality';
 
-export {
-    Home,
-    Doctors,
-    Speciality,
-};
+export { Home, Doctors, Speciality };

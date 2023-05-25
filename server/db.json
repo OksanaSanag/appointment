@@ -1,84 +1,82 @@
-
 {
-    "doctors": [
-        {
-            "id": 1,
-            "name": "Name1",
-            "lastName": "LastName1",
-            "specialization": "spec1"
-        },
-        {
-            "id": 2,
-            "name": "Name2",
-            "lastName": "LastName2",
-            "specialization": "spec3"
-        },
-        {
-            "id": 3,
-            "name": "Name3",
-            "lastName": "LastName3",
-            "specialization": "spec6"
-        },
-        {
-            "id": 4,
-            "name": "Name4",
-            "lastName": "LastName4",
-            "specialization": "spec5"
-        },
-        {
-            "id": 5,
-            "name": "Name5",
-            "lastName": "LastName5",
-            "specialization": "spec7"
-        },
-        {
-            "id": 6,
-            "name": "Name6",
-            "lastName": "LastName6",
-            "specialization": "spec4"
-        },
-        {
-            "id": 7,
-            "name": "Name7",
-            "lastName": "LastName7",
-            "specialization": "spec2"
-        },
-        {
-            "id": 8,
-            "name": "Name8",
-            "lastName": "LastName8",
-            "specialization": "spec6"
-        },
-        {
-            "id": 9,
-            "name": "Name9",
-            "lastName": "LastName9",
-            "specialization": "spec5"
-        },
-        {
-            "id": 10,
-            "name": "Name10",
-            "lastName": "LastName10",
-            "specialization": "spec1"
-        },
-        {
-            "id": 11,
-            "name": "Name11",
-            "lastName": "LastName11",
-            "specialization": "spec6"
-        },
-        {
-            "id": 12,
-            "name": "Name12",
-            "lastName": "LastName12",
-            "specialization": "spec7"
-        },
-        {
-            "id": 13,
-            "name": "Name13",
-            "lastName": "LastName13",
-            "specialization": "spec3"
-        }
-    ]
-    
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Name1",
+      "lastName": "LastName1",
+      "specialization": "spec1"
+    },
+    {
+      "id": 2,
+      "name": "Name2",
+      "lastName": "LastName2",
+      "specialization": "spec3"
+    },
+    {
+      "id": 3,
+      "name": "Name3",
+      "lastName": "LastName3",
+      "specialization": "spec6"
+    },
+    {
+      "id": 4,
+      "name": "Name4",
+      "lastName": "LastName4",
+      "specialization": "spec5"
+    },
+    {
+      "id": 5,
+      "name": "Name5",
+      "lastName": "LastName5",
+      "specialization": "spec7"
+    },
+    {
+      "id": 6,
+      "name": "Name6",
+      "lastName": "LastName6",
+      "specialization": "spec4"
+    },
+    {
+      "id": 7,
+      "name": "Name7",
+      "lastName": "LastName7",
+      "specialization": "spec2"
+    },
+    {
+      "id": 8,
+      "name": "Name8",
+      "lastName": "LastName8",
+      "specialization": "spec6"
+    },
+    {
+      "id": 9,
+      "name": "Name9",
+      "lastName": "LastName9",
+      "specialization": "spec5"
+    },
+    {
+      "id": 10,
+      "name": "Name10",
+      "lastName": "LastName10",
+      "specialization": "spec1"
+    },
+    {
+      "id": 11,
+      "name": "Name11",
+      "lastName": "LastName11",
+      "specialization": "spec6"
+    },
+    {
+      "id": 12,
+      "name": "Name12",
+      "lastName": "LastName12",
+      "specialization": "spec7"
+    },
+    {
+      "id": 13,
+      "name": "Name13",
+      "lastName": "LastName13",
+      "specialization": "spec3"
+    }
+  ]
 }

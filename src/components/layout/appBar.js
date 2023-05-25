@@ -35,7 +35,7 @@ export function ResponsiveAppBar() {
     setAnchorElNav(event.currentTarget);
   };
   const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget); 
+    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
@@ -47,7 +47,7 @@ export function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" color='secondary'>
+    <AppBar position="static" color="secondary">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -79,21 +79,21 @@ export function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map(({name, path}) => (
+              {pages.map(({ name, path }) => (
                 <MenuItem key={name} onClick={handleCloseNavMenu}>
-                  <MuiLink component={RouterLink} underline="none" key={name} to={path} >{name}</MuiLink>
+                  <MuiLink component={RouterLink} underline="none" key={name} to={path}>
+                    {name}
+                  </MuiLink>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map(({name, path}) => (
-              <Button
-                key={name}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                <MuiLink component={RouterLink} underline="none" key={name} to={path} >{name}</MuiLink> 
+            {pages.map(({ name, path }) => (
+              <Button key={name} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                <MuiLink component={RouterLink} underline="none" key={name} to={path}>
+                  {name}
+                </MuiLink>
               </Button>
             ))}
           </Box>
